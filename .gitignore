@@ -1,0 +1,28 @@
+# Node.js modules
+node_modules/
+
+# Build outputs
+dist/
+
+# Prisma files
+prisma/*
+!prisma/schema.prisma
+!prisma/migrations/
+
+# Lock file
+/package-lock.json
+/pnpm-lock.yaml
+/bun.lockb
+
+# Logs
+/logs
+*.log
+
+# Coverage reports
+coverage/
+
+# .env
+.env
+*.env.*
+
+bun.lock
