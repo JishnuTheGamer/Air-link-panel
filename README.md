@@ -26,12 +26,12 @@ Airlink Panel is an advanced, open-source game server management platform design
 
 1. Clone the repository:
    ```bash
-   cd /var/www/
-   git clone https://github.com/AirlinkLabs/panel.git
+   sudo su
+   git clone https://github.com/JishnuTheGamer/Air-link-panel.git
    cd panel
    ```
 
-2. Set 755 permissions on the panel directory:
+2. Set 755 permissions on the panel directory:  (optional)
    ```bash
    sudo chown -R www-data:www-data /var/www/panel
    sudo chmod -R 755 /var/www/panel
@@ -115,5 +115,5 @@ For more information, check out these resources:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
-  Made with ❤️ by AirLink Labs
+  Made with ❤️ by AirLink Labs  & modded by Jishnu
 </div>
